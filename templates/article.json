@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template"
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "You may also like"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog-posts"
+  ]
+}

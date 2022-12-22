@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-template"
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "settings": {
+        "title": "You may also like"
+      },
+      "blocks": {
+        "collection1": {
+          "type": "collection"
+        },
+        "collection2": {
+          "type": "collection"
+        },
+        "collection3": {
+          "type": "collection"
+        },
+        "collection4": {
+          "type": "collection"
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "featured-collections"
+  ]
+}

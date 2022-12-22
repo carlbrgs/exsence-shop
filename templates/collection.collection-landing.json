@@ -1,0 +1,115 @@
+{
+  "sections": {
+    "main-collection": {
+      "type": "main-collection",
+      "disabled": true,
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description"
+        },
+        "product_grid": {
+          "type": "product_grid"
+        },
+        "subcollections": {
+          "type": "subcollections"
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ]
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "settings": {
+        "space_above": true,
+        "space_below": false
+      },
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "color_tint": "#E95454"
+          }
+        },
+        "advanced": {
+          "type": "advanced"
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ]
+    },
+    "featured-collection": {
+      "type": "featured-collection"
+    },
+    "featured-collection2": {
+      "type": "featured-collection"
+    },
+    "promo-grid2": {
+      "type": "promo-grid",
+      "settings": {
+        "space_above": false,
+        "space_below": false
+      },
+      "blocks": {
+        "simple": {
+          "type": "simple",
+          "settings": {
+            "width": "50"
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "width": "50"
+          }
+        }
+      },
+      "block_order": [
+        "simple",
+        "advanced"
+      ]
+    },
+    "featured-collection3": {
+      "type": "featured-collection"
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "settings": {
+        "title": "You may also like"
+      },
+      "blocks": {
+        "collection1": {
+          "type": "collection"
+        },
+        "collection2": {
+          "type": "collection"
+        },
+        "collection3": {
+          "type": "collection"
+        },
+        "collection4": {
+          "type": "collection"
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4"
+      ]
+    }
+  },
+  "order": [
+    "promo-grid",
+    "featured-collection",
+    "featured-collection2",
+    "promo-grid2",
+    "featured-collection3",
+    "featured-collections",
+    "main-collection"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header"
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "settings": {
+        "enable_sidebar": false
+      },
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description"
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "per_row": 5
+          }
+        },
+        "subcollections": {
+          "type": "subcollections"
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ]
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "settings": {
+        "space_below": false
+      },
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "color_tint": "#E95454"
+          }
+        },
+        "advanced": {
+          "type": "advanced"
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ]
+    }
+  },
+  "order": [
+    "collection-header",
+    "promo-grid",
+    "main-collection"
+  ]
+}
